@@ -1,0 +1,9 @@
+site_name: Docs Playground
+site_description: ドキュメント管理ツール検証用
+
+theme:
+  name: material
+  language: ja
+
+nav:
+  - Home: index.md
