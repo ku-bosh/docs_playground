@@ -35,6 +35,10 @@ const config: Config = {
     locales: ['en'],
   },
 
+  markdown: {
+    mermaid: true,
+  },
+
   themes: [
     [
       '@easyops-cn/docusaurus-search-local',
@@ -44,6 +48,7 @@ const config: Config = {
       },
     ],
     'docusaurus-plugin-drawio',
+    '@docusaurus/theme-mermaid',
   ],
 
   presets: [
