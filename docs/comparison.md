@@ -1,3 +1,8 @@
+---
+title: ツール比較
+nav_order: 2
+---
+
 # ドキュメント管理ツール比較
 
 ## 除外済みツール
@@ -39,7 +44,19 @@
 ## 詳細・試した結果
 
 ### GitHub Pages
-- （未検証）
+#### 検証(シングル)
+- _config.yml作成
+-  SettingsでPagesを有効化
+    - Source: Deploy from a branch
+    - Branch: main / Folder: /docs
+    - Save
+
+#### 結果1
+- サイドバーなし
+- 同一階層のファイルはヘッダーで表示される
+
+### 検証2
+- 
 
 ### MkDocs
 - （未検証）

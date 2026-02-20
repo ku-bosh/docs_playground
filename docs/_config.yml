@@ -1,8 +1,6 @@
 title: docs_playground
 description: ドキュメント管理ツールの比較検証サイト
-theme: minima
+remote_theme: just-the-docs/just-the-docs
 
-# ナビゲーション（Jekyll 標準）
-header_pages:
-  - index.md
-  - comparison.md
+# サイドバー自動生成
+nav_enabled: true

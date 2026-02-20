@@ -1,3 +1,8 @@
+---
+title: ホーム
+nav_order: 1
+---
+
 # GitHub Pages テスト
 
 これは Pages のテストです。
