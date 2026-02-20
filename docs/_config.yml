@@ -1,0 +1,8 @@
+title: docs_playground
+description: ドキュメント管理ツールの比較検証サイト
+theme: minima
+
+# ナビゲーション（Jekyll 標準）
+header_pages:
+  - index.md
+  - comparison.md
