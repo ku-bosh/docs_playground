@@ -2,18 +2,20 @@
 sidebar_position: 2
 ---
 
-import Drawio from 'docusaurus-plugin-drawio/viewer'
+import Drawio from '@theme/Drawio'
+import diagram from '!!raw-loader!./assets/sample.drawio'
 
 # Draw.io テスト
 
 ## 埋め込みサンプル
 
-<Drawio filename="assets/sample.drawio" />
+<Drawio content={diagram} />
 
 ## 使い方
 
 ```mdx
-import Drawio from 'docusaurus-plugin-drawio/viewer'
+import Drawio from '@theme/Drawio'
+import diagram from '!!raw-loader!./assets/sample.drawio'
 
-<Drawio filename="assets/sample.drawio" />
+<Drawio content={diagram} />
 ```
