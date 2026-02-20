@@ -2,5 +2,8 @@ title: docs_playground
 description: ドキュメント管理ツールの比較検証サイト
 remote_theme: just-the-docs/just-the-docs
 
-# サイドバー自動生成
+# サイドバー設定
 nav_enabled: true
+nav_external_links: []
+back_to_top: true
+back_to_top_text: "トップへ"
