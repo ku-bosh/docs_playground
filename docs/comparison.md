@@ -44,7 +44,7 @@ nav_order: 2
 ## 詳細・試した結果
 
 ### GitHub Pages
-#### 検証(シングル)
+#### 設定
 - _config.yml作成
 -  SettingsでPagesを有効化
     - Source: Deploy from a branch
@@ -56,12 +56,22 @@ nav_order: 2
 - 現時点では
   - サイドバー表示は可能
   - 検索機能は使い物にならない
+  - 機能不足ないんんしょう
 
 ### MkDocs
 - （未検証）
 
 ### Docusaurus
-- （未検証）
+#### 設定
+- actionを設定
+- private設定(前提 **EnterPrise**)
+  - Settings （リポジトリ設定画面）へ
+  - 左メニューから Pages を選択
+  - GitHub Pages visibility で "Private" を選択
+
+#### 結果
+- かっちょいい。
+- PDFは面倒だけど、開発ドキュメント用との位置付けなので不要な認識
 
 ---
 

@@ -43,6 +43,7 @@ const config: Config = {
         language: ['en', 'ja'],
       },
     ],
+    'docusaurus-plugin-drawio',
   ],
 
   presets: [
